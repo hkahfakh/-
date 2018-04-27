@@ -10,5 +10,9 @@ import scrapy
 
 class ZhilianzhaopinItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
+    #
+    name = scrapy.Field()
+    Company = scrapy.Field()
+    Salary = scrapy.Field()
+    location = scrapy.Field()
     pass
