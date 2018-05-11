@@ -11,8 +11,11 @@ import scrapy
 class ZhilianzhaopinItem(scrapy.Item):
     # define the fields for your item here like:
     #
+    url = scrapy.Field()
     name = scrapy.Field()
     Company = scrapy.Field()
     Salary = scrapy.Field()
     location = scrapy.Field()
+    Educational = scrapy.Field()
+    experience = scrapy.Field()
     pass
