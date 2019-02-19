@@ -10,7 +10,7 @@ import scrapy
 
 class ZhilianzhaopinItem(scrapy.Item):
     # define the fields for your item here like:
-    #
+    # test git
     url = scrapy.Field()
     name = scrapy.Field()
     Company = scrapy.Field()
